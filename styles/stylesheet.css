@@ -1,0 +1,176 @@
+footer{
+  background-image: url('../images/footer-image.jpg');
+  background-position: center;
+  height: 30rem;
+}
+
+.footer{
+  text-align: center;
+  padding-top: 25rem;
+  color: white;
+}
+
+h4{
+  font-size: 1.25rem;
+  color: rgb(27, 68, 127);
+}
+
+.address{
+  float: right;
+  line-height: 0.5;
+}
+
+.nav{
+  list-style-type: none;
+  background-color: darkgray;
+  margin-top: 4rem;
+  padding: 0.5rem;
+}
+
+.navbar{
+  display: inline;
+  margin: 1rem;
+}
+
+.navbar a{
+  text-decoration: none;
+  color: white;
+}
+
+.grid-container-1{
+  display: grid;
+  grid-gap: 5rem 5rem;
+}
+
+.grid1{
+  grid-column: 1/2;
+  grid-row: 1/2;
+  margin-left: 2rem;
+}
+
+.grid2{
+  grid-column: 2/3;
+  grid-row: 1/2;
+  background-color: rgb(27, 68, 127);
+  color: white;
+  padding: 2rem;
+  margin-right: 2rem;
+}
+
+.grid3{
+  grid-column: 1/2;
+  grid-row: 2/3;
+  margin-left: 2rem;
+}
+
+.grid4{
+  grid-column: 2/3;
+  grid-row: 2/3;
+  background-color: rgb(27, 68, 127);
+  color: white;
+  padding: 2rem;
+  margin-right: 2rem;
+}
+
+.grid5{
+  grid-column: 1/2;
+  grid-row: 3/4;
+  margin-left: 2rem;
+}
+
+.grid6{
+  grid-column: 2/3;
+  grid-row: 3/4;
+  background-color: rgb(27, 68, 127);
+  color: white;
+  padding: 2rem;
+  margin-right: 2rem;
+}
+
+.grid7{
+  grid-column: 1/2;
+  grid-row: 4/5;
+  margin-left: 2rem;
+}
+
+.grid8{
+  grid-column: 2/3;
+  grid-row: 4/5;
+  background-color: rgb(27, 68, 127);
+  color: white;
+  padding: 2rem;
+  margin-right: 2rem;
+}
+
+
+.grid-container{
+  display: grid;
+  grid-gap: 5rem 10rem;
+}
+
+.grid-item-1{
+  grid-column: 1/2;
+  grid-row: 1/2;
+  margin-left: 12rem;
+}
+
+.grid-item-2{
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin-right: 12rem;
+}
+
+.grid-item-3{
+  grid-column: 1/span 2;
+  grid-row: 2/span 1;
+  border: 2rem solid darkgray;
+  padding: 3rem;
+  color: rgb(27, 68, 127);
+}
+
+.grid-item-3 p {
+  margin-right: 5rem;
+  margin-left: 5rem;
+}
+
+.grid-item-3 h3{
+  text-align: center;
+  font-size: 2rem;
+}
+
+.grid-item-3 embed{
+  display: block;
+  margin: auto;
+}
+
+.grid-item-4{
+  grid-column: 1/span 2;
+  grid-row: 3/span 1;
+  margin-bottom: 5rem;
+  border: 2rem solid darkgray;
+  padding: 3rem;
+  color: rgb(27, 68, 127);
+}
+
+.grid-item-4 p {
+  margin-right: 5rem;
+  margin-left: 5rem;
+}
+
+.grid-item-4 h3{
+  text-align: center;
+  font-size: 2rem;
+}
+
+.classes{
+  padding: 2rem;
+  margin-left: 5rem;
+}
+
+.class-header{
+  font-size: 2rem;
+}
+
+.desc{
+  margin-right: 30rem;
+}
